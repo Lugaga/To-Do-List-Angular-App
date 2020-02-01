@@ -13,7 +13,7 @@
 ## Setup/Installation Requirements
 * Fork the data onto your own personal repository.
 * Clone Project to your machine git clone `git clone`
-* Run on your local server/ Deploy to Heroku.
+* Run on your local server/ Deploy to firebase.
 
 ## Known Bugs
 No Bugs
