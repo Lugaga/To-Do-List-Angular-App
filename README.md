@@ -1,28 +1,38 @@
-# AcmeWidgets
+# To Do List
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
+#### A To Do List Angular Web Application.
 
-## By Lugaga Maurice Ngulu
-## Development server
+#### By **Lugaga Maurice Ngulu**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+## The Web Application Screengrab.
 
-## Code scaffolding
+* Home Page
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+![Home Page](screengrab/ACME-widgets.png)
 
-## Build
+## Setup/Installation Requirements
+* Fork the data onto your own personal repository.
+* Clone Project to your machine git clone `git clone`
+* Run on your local server/ Deploy to Heroku.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Known Bugs
+No Bugs
 
-## Running unit tests
+## Technologies Used
+* Google Fonts.
+* CSS for styling.
+* HTML for webpage design.
+* MDBootstrap 4.
+* Javascript(Angular).
+* Font Awesome.
+* Firebase.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Tech Support
 
-## Running end-to-end tests
+* Telephone: +254 (0) 777 685 128
+* Email: maureegaga@gmail.com
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### License and Copyright details
+* The MIT License 
+* Copyright (c) 2020 **Engineer Lugaga**
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
