@@ -8,7 +8,7 @@
 
 * Home Page
 
-![Home Page](/screengrab/ACME-widgets.png)
+![Home Page](screengrab/ACME-Widgets.png)
 
 ## Setup/Installation Requirements
 * Fork the data onto your own personal repository.
