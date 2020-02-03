@@ -1,0 +1,27 @@
+
+<div class="header">
+  <h2>ACME WIDGETS COMPANY</h2>
+</div>
+
+<div class="input-group">
+  <input type="text" placeholder="Type your do to items here ..." class="form-control" #Task>
+  <div class="input-group-addon hover-cursor" (click)="onAddClick(Task)">
+    <i class="fa fa-plus-circle fa-2x"></i>
+  </div>
+</div>
+<div class="taskList">
+  <div style="margin:5px 0px">
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let task of taskListArray">
+        <span class="hover-cursor" [class.text-success]="task.isChecked" (click)="onCheckClick(task.key,task.isChecked)">
+          <i class="fa fa-lg" [ngClass]="task.isChecked?'fa-check-circle-o':'fa-circle-thin'"></i>
+        </span>
+        {{task.name}}
+
+        <span class="hover-cursor text-danger pull-right" (click)="onDeleteClick(task.key)">
+          <i class="fa fa-trash-o" style="font-size:28px;color:red"></i>
+        </span>
+      </li>
+    </ul>
+  </div>
+  </div>
